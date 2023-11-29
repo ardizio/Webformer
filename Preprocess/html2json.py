@@ -172,12 +172,11 @@ output_path = './data/wiki_html_all.json'
 if __name__ == "__main__":
     with open(output_path,'w')as g:
         for root, dirs, files in os.walk(dir_path):
-            print(root)
-            print(dirs)
-            print(files)
+            #foreach dir in endata
             for dir in tqdm(dirs):
                 sub_dir_path = os.path.join(root,dir)
                 for sub_root,sub_dirs,sub_files in os.walk(sub_dir_path):
+                    # foeach file in dir
                     for f in tqdm(sub_files):
                         #index = f.split('.')[0]
                         path = os.path.join(sub_root,f)
