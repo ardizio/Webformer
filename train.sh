@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES=1 python ./run_mlm_pc.py \
 	--dataloader_num_workers 8 \
 	--save_steps 10000 \
 	--output_dir ./experiment \
-	--dataset_script_dir ./data_scripts \
+	--dataset_script_dir .CLEAR/data_scripts \
 	--dataset_cache_dir ./cache \
 	--limit 50000000 \
 	--overwrite_output_dir \
