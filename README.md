@@ -38,7 +38,9 @@ Download datasets:
 
 - Common Crawl from [their link](https://commoncrawl.org/get-started).
 
-put inside `Preprocess/data/endata`
+Create `data` folder running the cell inside `requirements.ipynb`.
+
+All the downloaded datasets should be placed inside a folder corresponding to their topic within the `Preprocess/data/endata` directory.
 
 ### 3. Prepare the Corpus Data
 Every piece of corpus data is the raw HTML code of a web page.
