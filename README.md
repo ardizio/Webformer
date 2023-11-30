@@ -32,7 +32,13 @@ In the end run the `bert_base_uncased` downloader cell, to download and store be
 
 ### 2. Get Corpus Data
 
+Download datasets:
 
+- SWDE from [Accademic Torrent](https://academictorrents.com/details/411576c7e80787e4b40452360f5f24acba9b5159).
+
+- Common Crawl from [their link](https://commoncrawl.org/get-started).
+
+put inside `Preprocess/data/endata`
 
 ### 3. Prepare the Corpus Data
 Every piece of corpus data is the raw HTML code of a web page.
