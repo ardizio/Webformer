@@ -21,12 +21,9 @@ Since WeebFormer is a 2022 paper, the dependencies are outadeted and installing 
 
 INSTEAD, I manually installed via `pip` all requirements, excluding `pytrec-eval`.
 
-Check out `requirements.ipynb`
-
-Run 
+Check out `requirements.ipynb` to test requirements and download to local machine `bert_base_uncased`.
 
 ### 2. Get Corpus Data
-
 
 
 ### 3. Prepare the Corpus Data
