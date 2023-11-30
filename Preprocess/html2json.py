@@ -1,3 +1,4 @@
+# IMPORTS ------------------------
 import re
 import json
 from tqdm import tqdm
@@ -5,7 +6,11 @@ from bs4 import BeautifulSoup
 import bs4
 import os
 import sys
+
+# Python has a recursion limit of 3K, we raise it up to 10K
 sys.setrecursionlimit(10000)
+
+
 class HTMLCleaner(object):
     def __init__(self,input_file,output_file):
         self.input_file = input_file
@@ -169,6 +174,8 @@ class HTMLStorer(object):
 dir_path = './data/endata/'
 new_dir_path = './data/endata_new_clean/'
 output_path = './data/wiki_html_all.json'
+
+# MAIN    ------------------------
 if __name__ == "__main__":
     with open(output_path,'w')as g:
         for root, dirs, files in os.walk(dir_path):

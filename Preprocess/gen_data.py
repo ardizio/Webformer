@@ -18,8 +18,7 @@ import math
 import copy
 import sys
 sys.setrecursionlimit(10000)
-MaskedLmInstance = collections.namedtuple("MaskedLmInstance",
-                                          ["index", "label"])
+MaskedLmInstance = collections.namedtuple("MaskedLmInstance", ["index", "label"])
 lock = Lock()
 num_instances = Value('i', 0)
 num_docs = Value('i', 0)
