@@ -1,29 +1,37 @@
-# Webformer
+# Webformer [Fork Late 2023]
 Source code of SIGIR2022 Long Paper:
 
 [Webformer: Pre-training with Web Pages for Information Retrieval](https://dl.acm.org/doi/abs/10.1145/3477495.3532086)
 
+Quick access to the [PDF WebFormer Paper](https://wqfcr.github.io/publications/WebFormer.pdf).
+
 ## Pipeline
 
+### 0. Preliminary process
+
+This is a Fork of the original WebFormer paper.  Original [ Git WebFormer](https://github.com/xrr233/Webformer.git).
+
 ### 1. Preinstallation
-First, prepare a **Python3** environment, and run the following commands:
-```
-  git clone https://github.com/xrr233/Webformer.git Webformer
-```
 
-Since WeebFormer is a 2022 paper, the dependencies are outadeted and installing them cause errors using the following commands:
+Prepare a **Python3** environment.
+
+Since WeebFormer is a 2022 paper, the dependencies are outadeted and installing them following the requirements.txt causes errors:
 
 ```
-  #ERROR PRONE INSTALLATION:
-  cd Webformer
-  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+#ERROR PRONE INSTALLATION Original
+cd Webformer
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-INSTEAD, I manually installed via `pip` all requirements, excluding `pytrec-eval`.
+**SSUGGESTED DEPENDENCIES INSTALLATION METHOD**
 
-Check out `requirements.ipynb` to test requirements and download to local machine `bert_base_uncased`.
+Run `requirements.ipynb` to test wich libs are already installed then manually install via `pip` the missing ones, excluding `pytrec-eval`. 
+
+In the end run the `bert_base_uncased` downloader cell, to download and store bert on your local machine.
+
 
 ### 2. Get Corpus Data
+
 
 
 ### 3. Prepare the Corpus Data
