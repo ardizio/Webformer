@@ -21,6 +21,8 @@ Since WeebFormer is a 2022 paper, the dependencies are outadeted and installing 
 
 INSTEAD, I manually installed via `pip` all requirements, excluding `pytrec-eval`.
 
+Check out `requirements.ipynb`
+
 ### Get Corpus Data
 
 
