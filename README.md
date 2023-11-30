@@ -9,9 +9,16 @@ Source code of SIGIR2022 Long Paper:
 First, prepare a **Python3** environment, and run the following commands:
 ```
   git clone https://github.com/xrr233/Webformer.git Webformer
+```
+
+Since this is a 2022 paper, the dependencies are outadeted and installing them cause errors using this command.
+
+```
   cd Webformer
   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+I manually pip installed all
 
 ### Prepare the Corpus Data
 Every piece of corpus data is the raw HTML code of a web page.
