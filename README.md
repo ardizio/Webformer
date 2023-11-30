@@ -5,7 +5,7 @@ Source code of SIGIR2022 Long Paper:
 
 ## Pipeline
 
-### Preinstallation
+### 1. Preinstallation
 First, prepare a **Python3** environment, and run the following commands:
 ```
   git clone https://github.com/xrr233/Webformer.git Webformer
@@ -23,11 +23,11 @@ INSTEAD, I manually installed via `pip` all requirements, excluding `pytrec-eval
 
 Check out `requirements.ipynb`
 
-### Get Corpus Data
+### 2. Get Corpus Data
 
 
 
-### Prepare the Corpus Data
+### 3. Prepare the Corpus Data
 Every piece of corpus data is the raw HTML code of a web page.
 Run the following commands to clear irrelevant content and get the training corpus:
 ```
@@ -35,13 +35,13 @@ Run the following commands to clear irrelevant content and get the training corp
 ```
 Remember to set your data path in the code.
 
-### Prepare the Training Data
+### 4. Prepare the Training Data
 Use the json file output in the previous step to generate training data.
 ```
   bash construct_data.sh
 ```
 
-### Running Pre-training
+### 5. Running Pre-training
 
 ```
  bash train.sh
