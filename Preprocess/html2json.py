@@ -101,6 +101,7 @@ class HTMLCleaner(object):
         with open(self.output_file,'w+')as f:
             f.write(str(self.root))
 
+
 class HTMLStorer(object):
     def __init__(self,input_file=None,html=None):
         if not input_file and not html:
@@ -174,6 +175,7 @@ class HTMLStorer(object):
 dir_path = './data/endata/'
 new_dir_path = './data/endata_new_clean/'
 output_path = './data/wiki_html_all.json'
+
 
 # MAIN    ------------------------
 if __name__ == "__main__":
