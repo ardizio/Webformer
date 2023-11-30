@@ -23,6 +23,8 @@ INSTEAD, I manually installed via `pip` all requirements, excluding `pytrec-eval
 
 Check out `requirements.ipynb`
 
+Run 
+
 ### 2. Get Corpus Data
 
 
