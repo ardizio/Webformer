@@ -11,7 +11,7 @@ First, prepare a **Python3** environment, and run the following commands:
   git clone https://github.com/xrr233/Webformer.git Webformer
 ```
 
-Since this is a 2022 paper, the dependencies are outadeted and installing them cause errors using the following commands:
+Since WeebFormer is a 2022 paper, the dependencies are outadeted and installing them cause errors using the following commands:
 
 ```
   #ERROR PRONE INSTALLATION:
