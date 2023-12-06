@@ -174,12 +174,12 @@ class HTMLStorer(object):
 
 dir_path = './data/endata/'
 new_dir_path = './data/endata_new_clean/'
-output_path = 'Preprocess\data\wiki_html_all.json'
+output_path = './data/wiki_html_all.json'
 
 
 # MAIN    ------------------------
 if __name__ == "__main__":
-    with open(output_path,'w')as g:
+    with open("Preprocess\data\wiki_html_all.json",'w')as g:
         for root, dirs, files in os.walk(dir_path):
             #foreach dir in endata
             for dir in tqdm(dirs):
