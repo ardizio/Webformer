@@ -190,6 +190,9 @@ if __name__ == "__main__":
                         #index = f.split('.')[0]
                         path = os.path.join(sub_root,f)
                         clean_path = new_dir_path+'_clean.html'
+                        print(path)
+                        print(clean_path)
+                        print('')
                         cleaner = HTMLCleaner(path,clean_path)
                         cleaner.clean_html()
                         #cleaner.clean_tree()
