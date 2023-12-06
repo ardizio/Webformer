@@ -174,7 +174,7 @@ class HTMLStorer(object):
 
 dir_path = './data/endata/'
 new_dir_path = './data/endata_new_clean/'
-output_path = '/data/wiki_html_all.json'
+output_path = 'Preprocess\data\wiki_html_all.json'
 
 
 # MAIN    ------------------------
